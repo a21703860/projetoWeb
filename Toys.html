@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html id="personagens_html">
+    <head>
+      <link href='https://fonts.google.com/css?family=Sofia' rel='stylesheet'>
+      <meta name="keywords" content="HTML,CSS">
+        <link rel="stylesheet" href="estilos.css">
+        <meta name="Site para Crianças" content="Website para Crianças">
+        <link rel="shortcut icon" type="image/x-icon" href="images/PNG Image.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personagens</title>
+        <script>
+            var minie=new Audio()
+            minie.src="audios/minnie.mp3"
+            var margarida=new Audio()
+            margarida.src="audios/margarida.mp3"
+            var pluto=new Audio()
+            pluto.src="audios/pluto.mp3"
+            var pato=new Audio()
+            pato.src="audios/pato.mp3"
+            var pateta=new Audio()
+            pateta.src="audios/pateta.mp3"
+            var patinhas=new Audio()
+            patinhas.src="audios/patinhas.mp3"
+            var bugs=new Audio()
+            bugs.src="audios/bugs.mp3"
+            var daffy=new Audio()
+            daffy.src="audios/daffy.mp3"
+            var mickey=new Audio()
+            mickey.src="audios/mickey.mp3"
+            var winnie=new Audio()
+            winnie.src="audios/winnie.mp3"
+        </script>
+    </head> 
+    <body background="imagens/teste.jpg">
+        <div class="logo_nav">
+            <a href="#"><img src="imagens/logo.png"></a>
+        </div>  
+        <div class="grid-container">
+            <div class="Header"> 
+                <nav class="top_nav">
+                    <ul>
+                      <li><a href="Home.html">Casa</a></li>
+                      <li><a href="Toys.html">Personagens</a></li>
+                      <li><a href="Jogos.html">Jogos</a></li>
+                      <li><a href="quizz.html">Quizz</a></li>
+                      <li><a href="Musica.html">Musica</a></li>
+                      <li><a href="quinta.html">Quinta</a></li>
+                      <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="Menu">
+                <a id="mickey_boneco_toys" href="#"><img class="mickey_personagens" src="imagens/Mickey_Mouse.png"></a>
+            </div>
+            <div class="Main_toys">
+                <figure class="column">
+                    <img id="minnie_toys" src="imagens/minnie_cara.png" onmouseover="minie.play(),pluto.pause()
+                    ,margarida.pause(),pato.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),mickey.pause(),winnie.pause()">
+                </figure>
+                  <figure class="column">
+                    <img id="margarida_toys" src="imagens/margarida_cara.png"   onmouseover="margarida.play(),pluto.pause()
+                    ,minie.pause(),pato.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),mickey.pause(),winnie.pause()" >
+                  </figure>
+                  <figure class="column">
+                    <img id="pluto_toys" src="imagens/pluto_face.png" onmouseover="pluto.play(), margarida.pause(),pluto.pause()
+                    ,minie.pause(),pato.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),mickey.pause(),winnie.pause()" >
+                  </figure>
+                  <figure class="column">
+                    <img id="pato_toys" src="imagens/pato_donnald_cara.png"  onmouseover="pato.play(), pluto.pause(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),mickey.pause(),winnie.pause()" >
+                  </figure>
+                  <figure class="column">
+                    <img id="pateta_toys" src="imagens/pateta_cara.png"  onmouseover="pateta.play(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pato.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),mickey.pause(),winnie.pause()">
+                  </figure>
+                  <figure class="column">
+                    <img id="patinhas_toys" src="imagens/patinhas_cara.png"  onmouseover="patinhas.play(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pateta.pause(),pato.pause(),bugs.pause(),daffy.pause(),mickey.pause(),winnie.pause()">
+                  </figure>
+                  <figure class="column">
+                    <img id="bugs_toys" src="imagens/bugs_bunny_face.png"  onmouseover="bugs.play(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pateta.pause(),patinhas.pause(),pato.pause(),daffy.pause(),mickey.pause(),winnie.pause()">
+                  </figure>
+                  <figure class="column">
+                    <img id="daffy_toys" src="imagens/daffy_duck_face.png"onmouseover="daffy.play(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),pato.pause(),mickey.pause(),winnie.pause()" >
+                  </figure>
+                  <figure class="column">
+                    <img id="tom_toys" src="imagens/mickey_cara.png" onmouseover="mickey.play(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),pato.pause(),winnie.pause()">
+                  </figure>
+                  <figure class="column">
+                    <img id="jerry_toys" src="imagens/winnie_face.png" onmouseover="winnie.play(),pluto.pause()
+                    ,minie.pause(),margarida.pause(),pateta.pause(),patinhas.pause(),bugs.pause(),daffy.pause(),mickey.pause(),pato.pause()">
+                  </figure> 
+            </div>  
+            <div class="Footer">Divirtam-se</div>
+        </div>
+    </body>
+</html>
+<!DOCTYPE html>
